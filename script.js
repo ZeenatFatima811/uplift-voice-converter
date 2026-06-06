@@ -4,7 +4,7 @@ const UPLIFT_API_KEY = "sk_api_504458d215b6cb3fd317524d690f7f5c30eb1c1d87bef4d71
 async function textToSpeech(text) {
     try {
         const payload={
-            voiceId: "street-vendor",
+            voiceId: "v_8eelc901",
             text: text,
             outputFormat: "MP3_22050_32",
         }
