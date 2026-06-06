@@ -1,0 +1,30 @@
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    color: red;
+    background-color: bisque;
+    text-align: center;
+    margin: 5px;
+}
+
+textarea{
+    text-align: center;
+    margin: 5px;
+}
+
+p{
+  text-align: center;  
+}

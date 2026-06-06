@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Text to Speech Converter Using Uplift AI</h1>
+    <div>
+      <textarea
+        name="inputField"
+        id="inputField"
+        placeholder="Enter your text here"
+      ></textarea>
+      <br />
+      <br />
+      <button onclick="Speech()">Speech</button>
+    </div>
+    <hr />
+    <h1>Speech to Text Converter Using Uplift AI</h1>
+    <div>
+      <button onclick="startRecording()">Start Recording</button>
+      <button onclick="stopRecording()">Stop Recording</button>
+    </div>
+    <p id="status"></p>
+    <script src="script.js"></script>
+  </body>
+</html>
